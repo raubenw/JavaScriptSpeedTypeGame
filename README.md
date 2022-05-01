@@ -1,0 +1,1 @@
+"# JavaScript Speed Typing Game" 
