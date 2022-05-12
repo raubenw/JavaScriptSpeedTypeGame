@@ -4,11 +4,53 @@
         <meta charset="UTF-8">
         <title>JavaScript Speed Type Game</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="script.js" defer></script>
     </head>
     <body>
-        <button>Normal HTML 5  Button</button>
-        <button class="btn btn-primary">Bootstrap Button</button>
+        <div class="wrapper">
 
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12 header">
+                        <h4>Lets play the speed typing game, where you will have to type the text given in the box below.</h4> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 origin-text">
+                        <p class="text">Do you love the speed typing test game ?</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 text-wrapper">
+                        <textarea id="textArea" name="text" class="w-100" rows="6" placeholder="Start typing the text here to start the game"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6" id="clock">
+                                    <div class="timer-wrapper">
+                                        <p class="timer">00:00:00</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <button id="reset" class="btn btn-primary button">Start</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
         <!-- Bootstrap Script-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
